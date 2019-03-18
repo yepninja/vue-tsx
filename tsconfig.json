@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+      "target": "es5",
+      "module": "esnext",
+      "strict": true,
+      "jsx": "preserve",
+      "importHelpers": true,
+      "moduleResolution": "node",
+      "esModuleInterop": true,
+      "sourceMap": true,
+      "noEmit": true,
+      "baseUrl": ".",
+      "typeRoots": [
+        "./node_modules/@types",
+        "./types"
+      ],
+      "lib": [
+        "esnext",
+        "dom"
+      ]
+    },
+    "include": [
+      "src/**/*.ts",
+      "src/**/*.tsx"
+    ]
+  }

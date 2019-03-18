@@ -1,0 +1,32 @@
+{
+  "name": "vue-jsx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-typescript": "^7.3.3",
+    "@vue/babel-preset-jsx": "^1.0.0-beta.2",
+    "babel-loader": "^8.0.5",
+    "css-loader": "^2.1.1",
+    "postcss-loader": "^3.0.0",
+    "postcss-preset-env": "^6.6.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  },
+  "dependencies": {
+    "element-ui": "^2.6.1",
+    "iview": "^3.3.0",
+    "vue": "^2.6.9",
+    "vue-tsx-support": "^2.2.2",
+    "vuetify": "^1.5.6"
+  }
+}
